@@ -1,3 +1,15 @@
+header {
+  background-color: #ffffff;
+}
 body {
-  background-color: #bebc52;
+  background-color: #fff;
+}
+footer {
+  background-color: #2f303a;
+}
+.hero {
+  background-color: #2f303a;
+}
+.logo {
+  color: #2196f3;
 }
