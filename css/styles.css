@@ -11,7 +11,7 @@
 
 body {
   background-color: #ffffff;
-  color: var(--primary-text-color);
+  color: #212121;
   font-family: Roboto;
   font-style: normal;
 }
@@ -36,7 +36,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: #212121;
 }
 .site-nav .link.current {
   color: #2196f3;
@@ -186,7 +186,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
-  color: var(--primary-text-color);
+  color: #212121;
 }
 .button-link .button:focus {
   background-color: #2196f3;
