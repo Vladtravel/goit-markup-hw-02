@@ -27,7 +27,18 @@ ul {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-
+.start {
+  color: #2196f3;
+}
+.finish {
+  color: #212121;
+}
+.start-footer {
+  color: #2196f3;
+}
+.finish-footer {
+  color: #ffffff;
+}
 /* Главная навигация */
 .site-nav .link {
   font-family: Roboto;
@@ -145,7 +156,9 @@ ul {
   letter-spacing: 0.03em;
 }
 /* Футер */
-
+.footer {
+  background-color: #2f303a;
+}
 .address {
   font-family: Roboto;
   font-style: normal;
