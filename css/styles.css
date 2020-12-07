@@ -12,16 +12,30 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
 }
 ul {
   list-style: none;
 }
 .logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 /* Главная навигация */
 .site-nav .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 .site-nav .link.current {
@@ -34,6 +48,12 @@ ul {
   color: #2196f3;
 }
 .contacts-nav .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 .contacts-nav .link:hover {
@@ -45,21 +65,94 @@ ul {
 
 /* Секция Герой */
 .hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   background-color: #2f303a;
   color: #ffffff;
 }
 .button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   background-color: #2196f3;
   color: #ffffff;
 }
 
-.text {
+.section-first .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   color: #757575;
 }
-
+.section-first .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.section-second .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-third .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-third .name-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-third .text-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 /* Футер */
 
 .address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   background-color: #2f303a;
   color: #ffffff;
 }
@@ -84,15 +177,38 @@ ul {
   color: #2196f3;
 }
 
-.site-link .button {
+.button-link .button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: var(--primary-text-color);
 }
-.site-link .button:focus {
+.button-link .button:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
-.site-link .button:hover {
+.button-link .button:hover {
   background-color: #2196f3;
   color: #ffffff;
+}
+.section-futures .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.section-futures .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
