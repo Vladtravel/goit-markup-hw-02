@@ -1,15 +1,13 @@
-header {
-  background-color: #ffffff;
-}
+/* основной текст #212121 */
+/* вторичный текст #757575
+белый #FFFFFF
+синий #2196F3 */
+/* прозрачный текст мейл и телефон 
+в футере rgba(255, 255, 255, 0.6)  */
+
+/* /* цвета фонов белый #FFFFFF  черный #2F303A синий #2196F3 серый #F5F4FA / */
+
 body {
-  background-color: #fff;
-}
-footer {
-  background-color: #2f303a;
-}
-.hero {
-  background-color: #2f303a;
-}
-.logo {
-  color: #2196f3;
+  background-color: #ffffff;
+  color: #212121;
 }
