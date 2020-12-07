@@ -1,13 +1,98 @@
-/* основной текст #212121 */
-/* вторичный текст #757575
 белый #FFFFFF
 синий #2196F3 */
 /* прозрачный текст мейл и телефон 
 в футере rgba(255, 255, 255, 0.6)  */
 
-/* /* цвета фонов белый #FFFFFF  черный #2F303A синий #2196F3 серый #F5F4FA / */
+/*цвета фонов белый #FFFFFF  черный #2F303A синий #2196F3 серый #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+}
 
 body {
   background-color: #ffffff;
-  color: #212121;
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: #2196f3;
+}
+
+/* Главная навигация */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link.current {
+  color: #2196f3;
+}
+.link:hover {
+  color: #2196f3;
+}
+.link:focus {
+  color: #2196f3;
+}
+.contacts-nav .link {
+  color: #757575;
+}
+.contacts-nav .link:hover {
+  color: #2196f3;
+}
+.contacts-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Секция Герой */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.text {
+  color: #757575;
+}
+
+/* Футер */
+
+.address {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address .link:hover {
+  color: #2196f3;
+}
+.address .link:focus {
+  color: #2196f3;
+}
+
+/* Портфолио */
+.section-futures .link {
+  color: #757575;
+}
+.section-futures .link:hover {
+  color: #2196f3;
+}
+.section-futures .link:focus {
+  color: #2196f3;
+}
+
+.site-link .button {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+.site-link .button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.site-link .button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
 }
