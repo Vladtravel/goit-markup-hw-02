@@ -7,6 +7,7 @@
 
 :root {
   --primary-text-color: #212121;
+  --secondary-text-color: #757575;
 }
 
 body {
@@ -65,7 +66,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .contacts-nav .link:hover {
   color: #2196f3;
@@ -108,7 +109,7 @@ ul {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .section-first .title {
   font-family: Roboto;
@@ -154,6 +155,7 @@ ul {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 /* Футер */
 .footer {
@@ -181,7 +183,7 @@ ul {
 
 /* Портфолио */
 .section-futures .link {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .section-futures .link:hover {
   color: #2196f3;
