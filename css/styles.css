@@ -11,7 +11,7 @@
 
 body {
   background-color: #ffffff;
-  color: #212121;
+  color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
 }
@@ -25,13 +25,13 @@ ul {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--primary-text-color);
 }
 .start {
   color: #2196f3;
 }
 .finish {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .start-footer {
   color: #2196f3;
@@ -47,7 +47,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .site-nav .link.current {
   color: #2196f3;
@@ -199,7 +199,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .button-link .button:focus {
   background-color: #2196f3;
