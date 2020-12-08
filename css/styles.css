@@ -1,13 +1,12 @@
 /* прозрачный текст мейл и телефон 
 в футере rgba(255, 255, 255, 0.6)  */
 
-/*цвета фонов белый #FFFFFF  черный #2F303A синий #2196F3 серый #F5F4FA */
-
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --text-color-white: #ffffff;
   --text-color-blue: #2196f3;
+  --text-address: rgba(255, 255, 255, 0.6);
   --bg-color-blue: #2196f3;
   --bg-color-white: #ffffff;
   --bg-color-black: #2f303a;
@@ -175,7 +174,7 @@ ul {
   color: var(--text-color-white);
 }
 .address .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-address);
 }
 .address .link:hover {
   color: var(--text-color-blue);
