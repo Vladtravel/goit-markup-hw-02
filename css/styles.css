@@ -10,6 +10,7 @@
   --text-color-blue: #2196f3;
   --bg-color-blue: #2196f3;
   --bg-color-white: #ffffff;
+  --bg-color-black: #2f303a;
 }
 
 body {
@@ -87,7 +88,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: #2f303a;
+  background-color: var(--bg-color-black);
   color: var(--text-color-white);
 }
 .hero .button {
@@ -161,7 +162,7 @@ ul {
 }
 /* Футер */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--bg-color-black);
 }
 .address {
   font-family: Roboto;
@@ -170,7 +171,7 @@ ul {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  background-color: #2f303a;
+  background-color: var(--bg-color-black);
   color: var(--text-color-white);
 }
 .address .link {
@@ -202,7 +203,7 @@ ul {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: var(--bg-color-white);
+  background-color: #f5f4fa;
   color: var(--primary-text-color);
 }
 .button-link .button:focus {
