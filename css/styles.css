@@ -8,6 +8,8 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
+  --third-text-color: #2196f3;
+  --main-bg-color: #2196f3;
 }
 
 body {
@@ -98,7 +100,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
+  background-color: var(--main-bg-color);
   color: #ffffff;
 }
 
