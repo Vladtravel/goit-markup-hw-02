@@ -1,5 +1,3 @@
-белый #FFFFFF
-синий #2196F3 */
 /* прозрачный текст мейл и телефон 
 в футере rgba(255, 255, 255, 0.6)  */
 
@@ -8,12 +6,14 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --third-text-color: #2196f3;
-  --main-bg-color: #2196f3;
+  --text-color-white: #ffffff;
+  --text-color-blue: #2196f3;
+  --bg-color-blue: #2196f3;
+  --bg-color-white: #ffffff;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--bg-color-white);
   color: var(--primary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -31,16 +31,16 @@ ul {
   color: var(--primary-text-color);
 }
 .start {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 .finish {
   color: var(--primary-text-color);
 }
 .start-footer {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 .finish-footer {
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 /* Главная навигация */
 .site-nav .link {
@@ -53,13 +53,13 @@ ul {
   color: var(--primary-text-color);
 }
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 .link:focus {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 .contacts-nav .link {
   font-family: Roboto;
@@ -71,10 +71,10 @@ ul {
   color: var(--secondary-text-color);
 }
 .contacts-nav .link:hover {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 .contacts-nav .link:focus {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 
 /* Секция Герой */
@@ -88,9 +88,9 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--text-color-white);
 }
-.button {
+.hero .button {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -100,8 +100,8 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--main-bg-color);
-  color: #ffffff;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-white);
 }
 
 .section-first .text {
@@ -171,16 +171,16 @@ ul {
   line-height: 24px;
   letter-spacing: 0.03em;
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 .address .link {
   color: rgba(255, 255, 255, 0.6);
 }
 .address .link:hover {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 .address .link:focus {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 
 /* Портфолио */
@@ -188,10 +188,10 @@ ul {
   color: var(--secondary-text-color);
 }
 .section-futures .link:hover {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 .section-futures .link:focus {
-  color: #2196f3;
+  color: var(--text-color-blue);
 }
 
 .button-link .button {
@@ -202,16 +202,16 @@ ul {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #f5f4fa;
+  background-color: var(--bg-color-white);
   color: var(--primary-text-color);
 }
 .button-link .button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-white);
 }
 .button-link .button:hover {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--bg-color-blue);
+  color: var(--text-color-white);
 }
 .section-futures .title {
   font-family: Roboto;
