@@ -27,7 +27,7 @@ ul {
 .logo {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -50,7 +50,7 @@ ul {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 14;
+  font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -82,6 +82,9 @@ ul {
 
 /* Секция Герой */
 .hero {
+  background-color: var(--bg-color-black);
+}
+.section-hero .main-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -90,13 +93,12 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: var(--bg-color-black);
   color: var(--text-color-white);
 }
 .hero .button {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -110,7 +112,7 @@ ul {
 .section-first .text {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -119,7 +121,7 @@ ul {
 .section-first .title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -128,7 +130,7 @@ ul {
 .section-second .title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -137,7 +139,7 @@ ul {
 .section-third .title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -155,7 +157,7 @@ ul {
 .section-third .text-title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -169,7 +171,7 @@ ul {
 .address {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -219,7 +221,7 @@ ul {
 .section-futures .title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -227,7 +229,7 @@ ul {
 .section-futures .link {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
